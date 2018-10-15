@@ -6,11 +6,11 @@ import NotFoundPage from './pages/not-found.vue';
 
 import PanelLeftPage from './pages/panel-left.vue';
 import PanelRightPage from './pages/panel-right.vue';
-
+import Skills from './pages/skills.vue';
 export default [
   {
     path: '/',
-    component: HomePage,
+    component: HomePage
   },
   {
     path: '/panel-left/',
