@@ -1,15 +1,13 @@
-# Framework7 Vue + Webpack App Template
-
-A full-featured Framework7 Vue with Webpack setup with hot-reload & css extraction. Based on [Vue Webpack Boilerplate](https://github.com/vuejs-templates/webpack)
+# Framework7 Vue + Webpack App MyBio App
 
 ## Usage
 
 ### 1. Download this repository
 ```
-git clone https://github.com/framework7io/framework7-template-vue-webpack my-app
+git clone git@github.com:khactam/myBio.git myBio
 ```
 
-Repository will be downloaded into `my-app/` folder
+Repository will be downloaded into `myBio/` folder
 
 ### 2. Instal dependencies
 
@@ -77,7 +75,6 @@ npm run build-dev
 # build for production with minification
 npm run build-prod
 ```
-
 ## Project Structure
 
 * `src/index.html` - main app HTML
