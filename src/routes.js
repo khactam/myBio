@@ -7,10 +7,22 @@ import NotFoundPage from './pages/not-found.vue';
 import PanelLeftPage from './pages/panel-left.vue';
 import PanelRightPage from './pages/panel-right.vue';
 import Skills from './pages/skills.vue';
+import Career from './pages/career.vue';
 export default [
   {
     path: '/',
     component: HomePage
+  },
+  {
+    path: '/skills/',
+    component: Skills
+  },
+  {
+    path: '/career/',
+    component: Career
+  },
+  {
+    path: '/contact/'
   },
   {
     path: '/panel-left/',
