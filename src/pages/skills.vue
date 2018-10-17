@@ -1,6 +1,12 @@
 <template>
   <f7-page id="display-relative" :page-content="false">
     <f7-block>
+      <f7-block-title>Portfolio</f7-block-title>
+      <f7-card>
+        <f7-list>
+          <f7-list-item link="/about/" title="See my apps"></f7-list-item>
+        </f7-list>
+      </f7-card>
       <f7-card>
         <f7-row>
           <f7-col class="center-grid">
@@ -62,12 +68,6 @@
           <f7-block-header>REACT</f7-block-header>
           <p><f7-progressbar class="color-red" :progress="40" id="demo-inline-progressbar"></f7-progressbar></p>
         </f7-card-content>
-      </f7-card>
-      <f7-block-title>Portfolio</f7-block-title>
-      <f7-card>
-        <f7-list>
-          <f7-list-item link="/about/" title="See my apps"></f7-list-item>
-        </f7-list>
       </f7-card>
     </f7-block>
   </f7-page>
