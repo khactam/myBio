@@ -52,7 +52,7 @@ export default {
             apple: "https://itunes.apple.com/us/app/id1224610973",
             google: "https://play.google.com/store/apps/details?id=com.hyvaasuomesta.hyvaasuomesta&hl=en_US"
           },
-          imgName: "../../static/img/hyvaa.png"
+          imgName: "static/img/hyvaa.png"
         },
         {
           name: "Raute",
@@ -61,7 +61,7 @@ export default {
             apple: "https://itunes.apple.com/fi/app/raute/id1222893322?mt=8",
             google: "https://play.google.com/store/apps/details?id=com.superapp.raute"
           },
-          imgName: "../../static/img/raute.png"
+          imgName: "static/img/raute.png"
         },
         {
           name: "Harkkakyydit",
@@ -70,7 +70,7 @@ export default {
             apple: "https://itunes.apple.com/kg/app/harkkakyydit/id1294238413?mt=8",
             google: "https://play.google.com/store/apps/details?id=com.superapp.kimppakyyti"
           },
-          imgName: "../../static/img/harkkakyydit.png"
+          imgName: "static/img/harkkakyydit.png"
         }
       ]
     }
