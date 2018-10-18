@@ -8,17 +8,15 @@
       <f7-nav-title>My personal app</f7-nav-title>
     </f7-navbar>
     <!-- main body -->
-    <f7-tabs swipeable>
+    <f7-tabs animated>
       <f7-tab id="skills" class="page-content" tab-active>
         <skills></skills>
       </f7-tab>
       <f7-tab id="career" class="page-content">
         <career></career>
       </f7-tab>
-      <f7-tab id="tab-3" class="page-content">
-        <f7-block>
-          <p>test</p>
-        </f7-block>
+      <f7-tab id="contact" class="page-content">
+        <contact></contact>
       </f7-tab>
     </f7-tabs>
     <!-- <f7-block-title>Modals</f7-block-title>
@@ -33,15 +31,12 @@
       </f7-row>
     </f7-block> -->
     <!-- bottom -->
-    <f7-toolbar tabbar>
-      <f7-link tab-link="#skills" tab-link-active>
-        <f7-icon f7="home"></f7-icon>
+    <f7-toolbar tabbar labels bottom-md>
+      <f7-link text="Skills" icon-ios="f7:home" tab-link="#skills" tab-link-active>
       </f7-link>
-      <f7-link tab-link="#career">
-        <f7-icon f7="graph_square"></f7-icon>
+      <f7-link tab-link="#career" text="Career" icon-ios="f7:graph_square">
       </f7-link>
-      <f7-link tab-link="#tab-3">
-        <f7-icon f7="paper_plane"></f7-icon>
+      <f7-link tab-link="#contact" text="Contact" icon-ios="f7:paper_plane">
       </f7-link>
     </f7-toolbar>
   </f7-page>
@@ -49,10 +44,12 @@
 <script>
 import Skills from './skills.vue'
 import Career from './career.vue'
+import Contact from './contact.vue'
 export default {
   components: {
     skills: Skills,
-    career: Career
+    career: Career,
+    contact: Contact
   }
 }
 </script>
