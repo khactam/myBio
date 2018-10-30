@@ -33,6 +33,7 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "framework7": "^3.4.0",
     "framework7-icons": "^0.9.1",
     "framework7-vue": "^3.4.0",
