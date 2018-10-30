@@ -27,16 +27,6 @@
         </f7-row>
       </f7-card-content>
     </f7-card>
-    <f7-list>
-      <f7-list-item title="Ivan Petrov" after="CEO">
-      </f7-list-item>
-      <f7-list-item title="John Doe" badge="5">
-        <f7-icon slot="media" icon="demo-list-icon"></f7-icon>
-      </f7-list-item>
-      <f7-list-item title="Jenna Smith">
-        <f7-icon slot="media" icon="demo-list-icon"></f7-icon>
-      </f7-list-item>
-    </f7-list>
   </f7-page>
 </template>
 
