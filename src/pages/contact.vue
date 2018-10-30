@@ -36,7 +36,7 @@
           email:'',
           description:''
         },
-        apikey: "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"
+        apikey: ""
       }
     },
     methods: {
