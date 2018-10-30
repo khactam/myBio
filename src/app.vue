@@ -16,7 +16,7 @@
     </f7-panel>
 
     <!-- Main View -->
-    <f7-view id="main-view" url="/" main theme-dark></f7-view>
+    <f7-view id="main-view" url="/" main></f7-view>
 
     <!-- Popup -->
     <f7-popup id="popup">
